@@ -2,7 +2,7 @@ import React from 'react'
 import Date from './Date'
 import Search from './Search'
 import Status from './Status'
-import './query.css'
+import './Query.css'
 
 const Query = () => {
   return (
