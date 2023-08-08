@@ -1,0 +1,61 @@
+.smalltransactions{
+width: 350px;
+height: 300px;
+top: 158px;
+left: 320px;
+border-radius: 20px;
+background-color: #FFFF;
+box-shadow: 2px 4px #2805f33e;
+
+}
+
+.creditbalance {
+    background: radial-gradient(#5961ac, #0d20f1);
+    border-radius: 15px;
+    margin: 20px auto;
+    align-items: center;
+    padding: 10px;
+    width:80%;
+    height: 70px;
+}   
+
+.creditbalance-text{
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.creditbalance-text p{
+    font-family: 'DM Sans';
+    color: rgba(233, 237, 247, 1);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    line-height: 20px;
+
+} 
+.creditbalance-text h1{
+    color: rgba(255, 255, 255, 1);
+    margin-top: 0;
+    font-family: DM Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    
+
+} 
+
+.recent {
+    margin-top:-10px
+}
+
+.recent-text p{
+    font-family: 'DM Sans';
+    margin-left: 25px; 
+    color: rgba(163, 174, 208, 1);
+    margin-bottom: 0;
+
+}

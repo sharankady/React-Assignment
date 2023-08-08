@@ -1,0 +1,11 @@
+.status-filter select {
+    padding: 7px 24px;
+    margin-right: 20px;
+    width:150px;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(213, 215, 222) ;
+    border-radius: 8px;
+    color: rgb(149, 149, 158);
+
+
+}

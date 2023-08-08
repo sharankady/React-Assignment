@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.charts-data{
+    display: flex;
+    margin-left:25px ;
+    gap: 50px;
+    
+}
+.charts-message{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.charts-message h3{
+    margin-top: 0;
+}
+
+.charts-message p{
+    color: rgba(0, 0, 0, 1);
+    
+    text-decoration: none;
+}
+
+.charts-message p:hover{
+    color: rgb(234, 022, 034);
+    cursor: pointer;
+
+    
+}
+
+
+
+.charts-message h1{
+    font-family:  sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    margin-top: 2px;
+    margin-left: 25px;
+    display:flex;
+    
+    
+}
+
+.charts-message h3{
+    margin-bottom: 2px;
+    margin-left: 25px;
+font-family: sans-serif;
+font-size: 14px;
+font-weight: 200;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+
+    
+}
+
+
+

@@ -1,0 +1,13 @@
+.applayout{
+    display:flex;
+    
+}
+
+.sidebar{
+    display: flex;
+    width: 20%;
+    height: 100vh;
+    background-color: rgba(231, 231, 243, 0.239);
+}
+
+

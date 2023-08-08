@@ -1,0 +1,31 @@
+
+.sidebaritems a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-family: 'DM Sans';
+    color: rgb(10, 10, 10);
+}
+
+.sidebaritems-list {
+    list-style-type: none;
+    margin: 20px 12px 20px -12px ;  
+    justify-content:space-evenly;
+    font-size: 20px;
+    
+
+}
+.sidebaritems-list-item{
+    display: flex;
+    margin-left: 22px;
+}
+
+.active {
+    border-bottom: 5px solid blue;
+    font-weight: 1000;      
+}
+
+
+
+
+
+

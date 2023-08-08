@@ -1,0 +1,35 @@
+.table-data li{
+    /* width: 100%; */
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+    margin-left: 0px;  
+    border-bottom: 1px solid rgb(242, 231, 231);
+    
+}
+
+.table-data-item{
+    width: 16.67%;
+    text-align: center;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+    
+}
+
+.name img{
+    width: 34px;
+    height: 34px;
+    border-radius:50% ;
+   
+    
+}
+
+.name h4{
+    margin-left: 15px;
+  
+    
+}
