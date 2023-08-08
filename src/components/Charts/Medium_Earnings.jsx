@@ -1,6 +1,6 @@
 import React from 'react'
 import'./Medium_Earnings.css'
-import { IoIosStats } from "react-icons/Io";
+import { IoIosStats } from "react-icons/io";
 import Chart from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 
