@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 
-import { BiSolidDashboard } from "react-icons/Bi";
-import { FiActivity } from "react-icons/Fi";
-import { HiLibrary } from "react-icons/Hi";
+import { BiSolidDashboard } from "react-icons/bi";
+import { FiActivity } from "react-icons/fi";
+import { HiLibrary } from "react-icons/hi";
 
-import { MdSecurity } from "react-icons/Md";
-import { GrSchedules } from "react-icons/Gr";
-import { GiPayMoney } from "react-icons/Gi";
-import { IoIosSettings } from "react-icons/Io";
+import { MdSecurity } from "react-icons/md";
+import { GrSchedules } from "react-icons/gr";
+import { GiPayMoney } from "react-icons/gi";
+import { IoIosSettings } from "react-icons/io";
 import './SidebarItems.css'
 
 const SidebarItems = () => {
