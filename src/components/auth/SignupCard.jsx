@@ -70,7 +70,7 @@ const {createUser} =useContext(AuthContext)
                 <button type="submit" className="btn">Sign up</button>
                 </div>
             </form>
-            <p className="signup">Have an Account ? <Link to="/login">Log In? </Link></p>
+            <p className="signup">Have an Account ? <Link to="/">Log In? </Link></p>
         </div>
     )
 }

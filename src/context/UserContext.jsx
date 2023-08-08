@@ -1,7 +1,5 @@
 import { createContext, useEffect, useState } from "react";
 import randomUser from "../API/randomUser";
-import { debounce } from "lodash";
-import { ErrorBoundary } from "react-error-boundary";
 
 
 export const UserContext  =createContext()
@@ -15,7 +13,8 @@ const [filteredGender, setfilteredGender] = useState('all');
 const [filteredAge, setFilteredAge] = useState('all');
 const [isLoading,setIsLoading] =useState(false)
 
-const [count,setCount] =useState(500)
+const [count,setCount] =useState(1000)
+
 
    useEffect(() =>{
     const fetchData =async() => {
@@ -28,6 +27,8 @@ const [count,setCount] =useState(500)
             }
             )
             setUserData(response.data.results)
+          
+
             
         }catch (err) {
             setError(err)
@@ -38,6 +39,8 @@ const [count,setCount] =useState(500)
     fetchData()
    },[])
 
+ 
+
    return <UserContext.Provider value={{
     userData,
     filteredGender,
@@ -47,7 +50,8 @@ const [count,setCount] =useState(500)
     search,
     setSearch,
     isLoading,
-    error
+    error,
+    
 
    }}>
      {props.children}

@@ -51,7 +51,7 @@ const Table = () => {
 
         <div className='table-main'>
            <ul>
-           
+           {isLoading && <p>Loading...</p>}
            {
            filteredUsers?.
            map(user => (
