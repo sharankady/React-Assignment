@@ -1,5 +1,5 @@
 import React from 'react'
-import './Userlist.css'
+import './UserList.css'
 
 
 const UserList = ({user}) => {
