@@ -6,7 +6,7 @@ import Dashboard from './pages/Dashboard/Dashboard'
 import Login from './pages/Login/Login'
 import Signup from './pages/Signup/Signup'
 import ComingSoon from './pages/ComingSoon/ComingSoon'
-import { UserContextProvider } from './context/userContext'
+import { UserContextProvider } from './context/UserContext'
 import { AuthContextProvider } from './context/AuthContext'
 import ProtectedRoute from './components/ProtectedRoute'
 

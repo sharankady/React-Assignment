@@ -24,7 +24,7 @@ const LoginCard = () => {
         e.preventDefault()  
         
         try {
-           await  signIn(email,password)
+           await signIn(email,password)
             navigate('/app/dashboard')
         } catch (error) {
             setError(error)
