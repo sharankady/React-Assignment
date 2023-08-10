@@ -10,7 +10,7 @@ const AppLayout = () => {
             <div className="sidebar">
                 <Sidebar />
             </div>
-            <div className="outlet">
+            <div >
                 <Outlet/>
             </div>
             

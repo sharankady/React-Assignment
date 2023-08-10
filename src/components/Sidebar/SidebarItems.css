@@ -19,11 +19,11 @@
     margin-left: 22px;
 }
 
-.active {
+.active  {
     border-bottom: 5px solid blue;
-    font-weight: 1000;      
+    font-weight: 1000;  
+    
 }
-
 
 
 

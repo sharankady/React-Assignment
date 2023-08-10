@@ -1,17 +1,20 @@
 
 .charts-data{
+    width:1157px;
     display: flex;
     margin-left:25px ;
-    margin-right:130px ;
-    gap:54px  
+    justify-content: space-between;
+    
+    
     
 }
 .charts-message{
-   
+    width:1157px;
     display: flex;
+    
     justify-content: space-between;
     align-items: center;
-    margin-right: 130px;
+    
 }
 
 .charts-message h3{
@@ -20,7 +23,7 @@
 
 .charts-message p{
     color: rgba(0, 0, 0, 1);
-    
+    margin-right:-25px;
     text-decoration: none;
 }
 

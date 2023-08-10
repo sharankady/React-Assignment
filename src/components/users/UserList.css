@@ -1,5 +1,5 @@
 .table-data li{
-     width: 101.6%; 
+     width: 101%; 
     list-style-type: none;
     display:flex;
     align-items: center;
@@ -12,13 +12,15 @@
 .table-data-item{
     width: 16.67%;
     text-align: left;
-    margin-left: 30px;
+    margin-left: 25px;
 }
+
+
 .name{
     display: flex;
     align-items: center;
     padding-right: 0;
-    gap:8px
+    gap:.1px
     
 }
 
@@ -28,8 +30,9 @@
     height: 34px;
     border-radius:50% ;
        
-}S
+}
 .name h5{
     margin-left: 15px;
     
+
 }

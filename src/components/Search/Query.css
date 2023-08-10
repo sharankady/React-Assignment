@@ -1,6 +1,7 @@
 .query{
     display:flex;
     margin-left: 25px;
+    
     border-radius: 7px;
     background-color: #ffff;
     justify-content: space-between;
@@ -13,5 +14,9 @@
 
 .query-filter { 
     display: flex;
-    gap:20px
+    
+}
+
+body{
+    margin-right:0
 }
