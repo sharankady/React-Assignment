@@ -1,19 +1,15 @@
 
 .charts-users{
    
-    width: 100%;
+    width:100%;
     height: 100%;
-    
-}
-.charts{
-    height: 57vh;
     background-color:#a2d2ff;
     
    
-}
-.users{
-    height: 43vh;
-    background-color: #a2d2ff;
     
-
 }
+
+.users {
+    padding-top: 10px;
+}
+ 

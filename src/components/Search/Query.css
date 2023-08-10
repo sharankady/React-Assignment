@@ -4,14 +4,14 @@
     border-radius: 7px;
     background-color: #ffff;
     justify-content: space-between;
-    width: 93%;
+    width: 1157px;
     height:60px;
     align-items: center;
 }
 
 
 
-.query-filter {
+.query-filter { 
     display: flex;
     gap:20px
 }

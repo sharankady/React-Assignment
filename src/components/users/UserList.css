@@ -6,6 +6,7 @@
     margin-left: 0px;  
     border-bottom: 1px solid rgb(242, 231, 231);
     
+    
 }
 
 .table-data-item{
@@ -17,7 +18,7 @@
     display: flex;
     align-items: center;
     padding-right: 0;
-    gap:.1px
+    gap:8px
     
 }
 
@@ -27,9 +28,8 @@
     height: 34px;
     border-radius:50% ;
        
-}
+}S
 .name h5{
     margin-left: 15px;
-  
     
 }
