@@ -90,3 +90,16 @@ border-radius: 4px;
 }
 
 
+@media  (max-width: 391px) {
+   .card {
+      width:300px;
+      height:300px
+     
+   }
+   .form-item input{
+       width:60%
+   }
+   .form {
+    margin: 20px auto
+   }
+  }

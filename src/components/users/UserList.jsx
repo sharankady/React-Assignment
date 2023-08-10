@@ -7,8 +7,14 @@ const UserList = ({user}) => {
     <div className='table-data'>
         <li>
             <div className='table-data-item name'>
+                 <div>
                  <img src={user.picture.thumbnail}></img> 
-                <h4>{user.name.first}</h4> 
+                 </div>
+               
+                <div>
+                <h5>{user.name.first} {user.name.last}</h5> 
+                </div>
+                
             </div>
             <div className='table-data-item'>
                  <p>{user.location.city}</p>  

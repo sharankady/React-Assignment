@@ -1,5 +1,5 @@
 .table-data li{
-    /* width: 100%; */
+     width: 101.6%; 
     list-style-type: none;
     display:flex;
     align-items: center;
@@ -10,25 +10,25 @@
 
 .table-data-item{
     width: 16.67%;
-    text-align: center;
+    text-align: left;
+    margin-left: 30px;
 }
 .name{
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-left: 0;
+    padding-right: 0;
+    gap:.1px
     
 }
+
 
 .name img{
     width: 34px;
     height: 34px;
     border-radius:50% ;
-   
-    
+       
 }
-
-.name h4{
+.name h5{
     margin-left: 15px;
   
     

@@ -7,7 +7,7 @@ import UserList from './UserList'
 import { UserContext } from '../../context/UserContext'
 import { useContext } from 'react'
 
-const tableHeading =['Author','City','Phone Number','Gender','age','Nationality']
+const tableHeading =['Author','City','Phone Number','Gender','Age','Nationality']
 const Table = () => {
 
   const { userData,search,filteredGender,filteredAge,isLoading,error } = useContext(UserContext)
@@ -31,7 +31,8 @@ const Table = () => {
   
     const searchHandler =
     search.toLowerCase() === '' ? user :
-      user.name.first.toLowerCase().includes(search);
+      user.name.first.toLowerCase().includes(search) ||
+      user.name.last.toLowerCase().includes(search)                        
   
     return genderhandler && searchHandler && ageHandler;
   });
@@ -44,18 +45,22 @@ const Table = () => {
     <div className='table'>
         <div className='table-heading'>
             {tableHeading.map(heading =>(
-                <h5>{heading}</h5>
+                
+                   <div>
+                    <h5>{heading}</h5>
+                   </div>
+                
             ))}
 
         </div>
 
         <div className='table-main'>
            <ul>
-           {isLoading && <p>Loading...</p>}
+          
            {
            filteredUsers?.
            map(user => (
-                <UserList user={user}/> 
+                <UserList user={user} /> 
                 ))}
            </ul>
 

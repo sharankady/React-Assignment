@@ -7,7 +7,7 @@ import { Footer } from './Footer'
 
 const Sidebar = () => {
   return (
-    <div classNam="sidebar">
+    <div className="sidebar">
        <Logo/>
        <SidebarItems/>
        <Footer/>

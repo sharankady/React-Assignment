@@ -1,13 +1,12 @@
 
 
 .card {
-    position: absolute;
-    background-color: #ffffff;
+    
+    background-color: #db1c1c;
     align-items: center;
     width: 418px;
     height: 510px;
-    left: 547px;
-    top: 142px;
+   
 
 }
 
@@ -33,7 +32,7 @@
 }
 
 .form-item {
-    display: flex;
+   
     font-family: 'Inter';
     flex-direction: column;
     width: 338px;
@@ -88,5 +87,6 @@ border-radius: 4px;
     letter-spacing: 1px;
     color: #333333;
 }
+
 
 
